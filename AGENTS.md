@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+For assets that must work on non-Lovable hosts, store them in `public/` and reference root-relative paths because `/__l5e/` URLs are Lovable-specific.

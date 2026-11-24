@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
-import brandLogo from "@/assets/barnes-noble-logo.png.asset.json";
 import { ChevronDown, Gift, ListChecks, MousePointerClick, Star } from "lucide-react";
 import { createFileRoute } from "@tanstack/react-router";
 
-const claimUrl = "https://linkthem.net/?offer_id=4348&aff_id=174495";
+const claimUrl = "https://linkthem.net/?offer_id=4348&aff_id=148566";
 
 const steps = [
   {
@@ -91,7 +90,7 @@ function Index() {
     <main className="offer-page">
       <div className="offer-layout">
         <header className="brand-panel" aria-label="Barnes & Noble">
-          <img className="brand-mark" src={brandLogo.url} alt="Barnes & Noble" />
+          <img className="brand-mark" src="/barnes-noble-logo.png" alt="Barnes & Noble" />
         </header>
 
         <section className="offer-intro" aria-labelledby="offer-title">
